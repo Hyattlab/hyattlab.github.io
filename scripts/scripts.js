@@ -65,6 +65,7 @@ $(document).ready(function(){
         $.ajax({
             type: 'GET',
             dataType:"json",
+		crossDomain: true,
             // contentType: "application/json; charset=utf-8",
             url: 'http://46.151.213.119:8056/drive/lab/getInputData',
 			
